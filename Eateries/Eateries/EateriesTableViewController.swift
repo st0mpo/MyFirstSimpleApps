@@ -2,8 +2,8 @@
 //  EateriesTableViewController.swift
 //  Eateries
 //
-//  Created by Ivan Akulov on 29/09/2016.
-//  Copyright © 2016 Ivan Akulov. All rights reserved.
+//  Created by Александр on 07/03/2019.
+//  Copyright © 2019 Aleksandr Istomin. All rights reserved.
 //
 
 import UIKit
