@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Top Cities
-//
-//  Created by Александр Истомин on 25.02.2020.
-//  Copyright © 2020 Александр Истомин. All rights reserved.
-//
 
 import SwiftUI
 
@@ -13,7 +6,13 @@ struct ContentView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: true) {
                 HeaderView()
-                CardView()
+                ForEach(0 ..< 5) { _ in
+                    HStack {
+                        CardView()
+                        FavoriteView()
+                        
+                    }
+                    }
             }
             .navigationBarTitle("Top Cities App")
         }

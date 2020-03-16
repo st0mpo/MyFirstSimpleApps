@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE98E20E241FD901005D1713 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98E20D241FD901005D1713 /* FavoriteView.swift */; };
 		BEA6B1B62405B9C0001329B6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6B1B52405B9C0001329B6 /* CardView.swift */; };
 		BED514272405B22A003BA126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED514262405B22A003BA126 /* AppDelegate.swift */; };
 		BED514292405B22A003BA126 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED514282405B22A003BA126 /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE98E20D241FD901005D1713 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		BEA6B1B52405B9C0001329B6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BED514232405B22A003BA126 /* Top Cities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Cities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED514262405B22A003BA126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				BED514282405B22A003BA126 /* SceneDelegate.swift */,
 				BED5142A2405B22A003BA126 /* ContentView.swift */,
 				BEA6B1B52405B9C0001329B6 /* CardView.swift */,
+				BE98E20D241FD901005D1713 /* FavoriteView.swift */,
 				BED5143A2405B421003BA126 /* HeaderView.swift */,
 				BED5142C2405B234003BA126 /* Assets.xcassets */,
 				BED514312405B234003BA126 /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 				BED514292405B22A003BA126 /* SceneDelegate.swift in Sources */,
 				BED5142B2405B22A003BA126 /* ContentView.swift in Sources */,
 				BED5143B2405B421003BA126 /* HeaderView.swift in Sources */,
+				BE98E20E241FD901005D1713 /* FavoriteView.swift in Sources */,
 				BEA6B1B62405B9C0001329B6 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
