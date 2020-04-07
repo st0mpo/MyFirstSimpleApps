@@ -2,16 +2,16 @@ import SwiftUI
 
 struct TopInfoView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             TopLogoView()
-            Text("COVID-19")
-                .font(.title)
-                .fontWeight(.heavy)
-            
-            Text("Screening Tool")
-            .font(.title)
-            .fontWeight(.heavy)
+            HeaderView()
+            TextAndImageInfoView()
+            VButtons()
         }
+        .padding()
+        .background(LinearGradient(gradient: Gradient(colors: [Color(.systemBackground), Color(.systemGray4)]), startPoint: .top, endPoint: .bottom))
+        .listRowInsets(EdgeInsets())
+        
     }
 }
 

@@ -19,7 +19,10 @@ struct TopLogoView: View {
             
             Circle()
                 .frame(width: 38)
+            
+            Spacer()
         }
+        .padding(.vertical, -44)
     }
 }
 
