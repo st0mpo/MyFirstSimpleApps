@@ -5,26 +5,9 @@ struct ContentView: View {
         TabView {
             NavigationView {
                 VStack {
-                    ZStack {
-                        LinearGradient(gradient: Gradient(colors: [Color.purple, Color.blue]), startPoint: .leading, endPoint: .trailing)
-                            SearchJobView()
-                        }
-                        .frame(height: 220)
-                    }
-                    
-                    ScrollView(.vertical, showsIndicators: true) {
-                        NavigationLink(destination: Text("Coming soon.")) {
-                            ZStack {
-                                Rectangle()
-                                    .foregroundColor(.white)
-                                    .cornerRadius(12)
-                                    .shadow(color: Color.black.opacity(0.3), radius: 6, x: 0, y: 6)
-                                    .padding(.horizontal)
-                            }
-                        }
-                    }
+                RecentJobsScrollView()
                 }
-                
+                .edgesIgnoringSafeArea(.top)
                 
             .tabItem { Image(systemName: "house.fill") }.tag(1)
             
@@ -37,7 +20,9 @@ struct ContentView: View {
                 Text("Tab Content 4").tabItem { Image(systemName: "gear") }.tag(4)
                 Text("Tab Content 5").tabItem { Image(systemName: "person.fill") }.tag(5)
             }
+       
         }
+      
     }
 
 
@@ -90,3 +75,71 @@ struct SearchJobView: View {
         }
     }
 }
+
+struct RecentJobsScrollView: View {
+    var body: some View {
+        ScrollView(.vertical, showsIndicators: true) {
+            ZStack {
+            LinearGradient(gradient: Gradient(colors: [Color.purple, Color.blue]), startPoint: .leading, endPoint: .trailing)
+                SearchJobView()
+            }
+            .frame(height: 220)
+            
+        
+            HStack {
+                Text("Recent Jobs")
+                    .font(.title)
+                    .fontWeight(.bold)
+                Spacer()
+            }.padding()
+            
+            
+            
+            NavigationLink(destination: Text("Coming soon.")) {
+                ZStack {
+                    Rectangle()
+                        .foregroundColor(.white)
+                        .cornerRadius(12)
+                        .shadow(color: Color.black.opacity(0.3), radius: 6, x: 0, y: 6)
+                        .padding(.horizontal)
+                    
+                    HStack(alignment: .top) {
+                        Image(systemName: "dollarsign.circle")
+                            .font(.largeTitle)
+                            .padding()
+                        
+                        VStack(alignment: .leading){
+                            
+                            Text("HHH")
+                                .foregroundColor(.secondary)
+                            
+                            Text("HHH")
+                                .font(.title)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.black)
+                            
+                            Text("HHH")
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.black)
+                        }
+                        
+                        VStack{
+                            
+                            Image(systemName: "bookmark.fill")
+                            Spacer()
+                            Text("HHH")
+                        }
+                        .foregroundColor(.secondary)
+                    }
+                    
+                    
+                }
+            }
+        }
+        .frame(height: UIScreen.main.bounds.height - 180)
+        
+    }
+    }
+    
+}
+
