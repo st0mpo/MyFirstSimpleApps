@@ -46,7 +46,7 @@ struct AboutView: View {
                 }
                 .padding()
                 .sheet(isPresented: self.$isShowing) {
-                    LearnMoreView(isShowing: self.$isShowing)
+                    LearnMoreView()
                     
                 }
             }
@@ -55,7 +55,7 @@ struct AboutView: View {
             .shadow(color: Color.secondary.opacity(0.4), radius: 4, x: 0, y: 8)
             .padding()
         }
-        .navigationBarTitle("", displayMode: .inline)
+        .navigationBarTitle("\(aboutData[0].title)")
         .background(Color(.systemGroupedBackground))
     }
     
@@ -66,7 +66,10 @@ struct AboutView: View {
     
 
 struct AboutView_Previews: PreviewProvider {
+
+    
     static var previews: some View {
         AboutView(aboutData: [AboutCellData(image: "staroflife.fill", color: .yellow, title: "About Staff", previewBody: "This is just preview of more text", body: "More text")])
+       
     }
 }

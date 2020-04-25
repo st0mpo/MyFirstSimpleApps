@@ -1,11 +1,3 @@
-//
-//  TopLogoView.swift
-//  C-19
-//
-//  Created by Александр Истомин on 06.04.2020.
-//  Copyright © 2020 Александр Истомин. All rights reserved.
-//
-
 import SwiftUI
 
 struct TopLogoView: View {

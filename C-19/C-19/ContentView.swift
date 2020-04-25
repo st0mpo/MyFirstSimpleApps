@@ -1,15 +1,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isShowing = false
+    
     var body: some View {
         NavigationView {
             List {
-                TopInfoView()
+                TopInfoView(isShowing: $isShowing)
+                
                 MainList()
                 
             }
         .navigationBarTitle(" ")
         .navigationBarHidden(true)
+            
         }
         
     }

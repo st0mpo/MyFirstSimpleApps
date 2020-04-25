@@ -2,6 +2,8 @@ import SwiftUI
 
 struct MainList: View {
     
+    @State private var isShowing = false
+    
     let infoCells = [MainCellData(image: "text.badge.plus", color: .yellow, title: "What you can do", body: "Same Text An up-to-date rundown of the virus", aboutCellData:
         
         [AboutCellData(image: "star.fill", color: .pink, title: "Washing your hands", previewBody: "Lots of preview text and staff", body: "Lots more text about staff")]),

@@ -7,7 +7,7 @@ struct TextAndImageInfoView: View {
             
             Spacer()
             
-            Image ("")
+            Image(systemName: "bandage.fill")
             .padding()
         }
     }
