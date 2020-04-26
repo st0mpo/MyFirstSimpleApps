@@ -172,7 +172,10 @@ struct JobDetailView: View {
                     .font(.system(size: 72))
                     .offset(x: 0, y: 40)
                 )
-            }
+            }.padding()
+            
+            
+            
             Text(job.title)
                 .font(.title)
                 .bold()
