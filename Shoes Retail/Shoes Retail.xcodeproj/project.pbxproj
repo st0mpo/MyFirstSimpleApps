@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE138CE42537321F00631AA4 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE138CE32537321F00631AA4 /* AccountView.swift */; };
+		BE138CE72537352800631AA4 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE138CE62537352800631AA4 /* SideMenuView.swift */; };
 		BE8316792537168700A982EF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8316782537168700A982EF /* HeaderView.swift */; };
 		BE90A21225370E1000B2EF6B /* Shoes_RetailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90A21125370E1000B2EF6B /* Shoes_RetailApp.swift */; };
 		BE90A21425370E1000B2EF6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90A21325370E1000B2EF6B /* ContentView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE138CE32537321F00631AA4 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		BE138CE62537352800631AA4 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		BE8316782537168700A982EF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		BE90A20E25370E1000B2EF6B /* Shoes Retail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoes Retail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE90A21125370E1000B2EF6B /* Shoes_RetailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoes_RetailApp.swift; sourceTree = "<group>"; };
@@ -74,7 +78,9 @@
 				BEFF647D2537222600BEABA4 /* CategoriesView.swift */,
 				BEFF64802537242A00BEABA4 /* NavigationBarItemView.swift */,
 				BE9C1D732537192D002A8051 /* CattegoriesButtonView.swift */,
+				BE138CE62537352800631AA4 /* SideMenuView.swift */,
 				BE9C1D7625371B3C002A8051 /* GridCellView.swift */,
+				BE138CE32537321F00631AA4 /* AccountView.swift */,
 				BE90A21525370E1300B2EF6B /* Assets.xcassets */,
 				BE90A21A25370E1300B2EF6B /* Info.plist */,
 				BE90A21725370E1300B2EF6B /* Preview Content */,
@@ -163,6 +169,8 @@
 				BE9C1D7725371B3C002A8051 /* GridCellView.swift in Sources */,
 				BE90A21425370E1000B2EF6B /* ContentView.swift in Sources */,
 				BE9C1D742537192D002A8051 /* CattegoriesButtonView.swift in Sources */,
+				BE138CE72537352800631AA4 /* SideMenuView.swift in Sources */,
+				BE138CE42537321F00631AA4 /* AccountView.swift in Sources */,
 				BEFF647B2537203100BEABA4 /* GridView.swift in Sources */,
 				BEFF64812537242A00BEABA4 /* NavigationBarItemView.swift in Sources */,
 				BE90A21225370E1000B2EF6B /* Shoes_RetailApp.swift in Sources */,
