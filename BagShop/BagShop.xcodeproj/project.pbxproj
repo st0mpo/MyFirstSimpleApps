@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE63C1482541BAD900B94E10 /* BagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63C1472541BAD900B94E10 /* BagView.swift */; };
+		BE63C14B2541BFA800B94E10 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63C14A2541BFA800B94E10 /* DetailView.swift */; };
+		BEDA2E002542F56400C35A32 /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA2DFF2542F56400C35A32 /* ColorButton.swift */; };
+		BEDA2E032542FA4100C35A32 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA2E022542FA4100C35A32 /* CustomCorner.swift */; };
 		BEE627252540651200F75A79 /* BagShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE627242540651200F75A79 /* BagShopApp.swift */; };
 		BEE627272540651200F75A79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE627262540651200F75A79 /* ContentView.swift */; };
 		BEE627292540651200F75A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE627282540651200F75A79 /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE63C1472541BAD900B94E10 /* BagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagView.swift; sourceTree = "<group>"; };
+		BE63C14A2541BFA800B94E10 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BEDA2DFF2542F56400C35A32 /* ColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
+		BEDA2E022542FA4100C35A32 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 		BEE627212540651200F75A79 /* BagShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BagShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE627242540651200F75A79 /* BagShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagShopApp.swift; sourceTree = "<group>"; };
 		BEE627262540651200F75A79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +98,10 @@
 			children = (
 				BEE6273725406A1A00F75A79 /* Home.swift */,
 				BEE6273E2540795D00F75A79 /* TabButton.swift */,
+				BE63C1472541BAD900B94E10 /* BagView.swift */,
+				BE63C14A2541BFA800B94E10 /* DetailView.swift */,
+				BEDA2DFF2542F56400C35A32 /* ColorButton.swift */,
+				BEDA2E022542FA4100C35A32 /* CustomCorner.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,8 +178,12 @@
 				BEE627272540651200F75A79 /* ContentView.swift in Sources */,
 				BEE6273C254077AF00F75A79 /* ModelData.swift in Sources */,
 				BEE6273825406A1A00F75A79 /* Home.swift in Sources */,
+				BEDA2E032542FA4100C35A32 /* CustomCorner.swift in Sources */,
+				BE63C14B2541BFA800B94E10 /* DetailView.swift in Sources */,
 				BEE6273F2540795D00F75A79 /* TabButton.swift in Sources */,
 				BEE627252540651200F75A79 /* BagShopApp.swift in Sources */,
+				BE63C1482541BAD900B94E10 /* BagView.swift in Sources */,
+				BEDA2E002542F56400C35A32 /* ColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
