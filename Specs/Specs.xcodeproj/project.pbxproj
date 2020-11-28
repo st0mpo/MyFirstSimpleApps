@@ -16,6 +16,7 @@
 		BE82B0CA256E9A2C00BE11D2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82B0C9256E9A2C00BE11D2 /* Home.swift */; };
 		BE82B0CD256E9F3300BE11D2 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82B0CC256E9F3300BE11D2 /* TabButton.swift */; };
 		BE82B0D0256EA2E800BE11D2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82B0CF256EA2E800BE11D2 /* Item.swift */; };
+		BEBE7C5B2572A492005318EA /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE7C5A2572A492005318EA /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BE82B0C9256E9A2C00BE11D2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		BE82B0CC256E9F3300BE11D2 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		BE82B0CF256EA2E800BE11D2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BEBE7C5A2572A492005318EA /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				BE82B0CC256E9F3300BE11D2 /* TabButton.swift */,
 				BE7700C5256EAAFE009DAB70 /* CardView.swift */,
 				BE16DD4D25701EC5006CE38D /* Detail.swift */,
+				BEBE7C5A2572A492005318EA /* CustomShape.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBE7C5B2572A492005318EA /* CustomShape.swift in Sources */,
 				BE82B0D0256EA2E800BE11D2 /* Item.swift in Sources */,
 				BE16DD4E25701EC5006CE38D /* Detail.swift in Sources */,
 				BE82B0BA256E997600BE11D2 /* ContentView.swift in Sources */,
