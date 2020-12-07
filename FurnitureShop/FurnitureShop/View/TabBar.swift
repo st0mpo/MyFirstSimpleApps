@@ -12,9 +12,9 @@ struct TabBar: View {
     @State var current = "Home"
     
     var body: some View {
-        ZStack(alignment: Alignment(horizontal: .center, vertical: .center)) {
+        ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)) {
             TabView(selection: $current) {
-                Text("Home")
+                Home()
                     .tag("Home")
                 
                 Text("Messages")
@@ -25,8 +25,21 @@ struct TabBar: View {
             }
             
             HStack(spacing: 0) {
+                TabButton(title: "Home", image: "home", selected: $current)
                 
+                Spacer(minLength: 0)
+                
+                TabButton(title: "Messages", image: "messenger", selected: $current)
+                
+                Spacer(minLength: 0)
+                
+                TabButton(title: "Account", image: "user", selected: $current)
             }
+            .padding(.vertical, 12)
+            .padding(.horizontal)
+            .background(Color("tab"))
+            .clipShape(Capsule())
+            .padding(.horizontal, 25)
         }
     }
 }
